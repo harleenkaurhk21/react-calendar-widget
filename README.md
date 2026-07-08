@@ -4,7 +4,7 @@ A simple and responsive React Calendar Widget built using React and Vite.
 
 ## Live Demo
 
-https://your-vercel-link.vercel.app
+https://react-calendar-widget.vercel.app/
 
 ## Features
 
@@ -24,13 +24,6 @@ https://your-vercel-link.vercel.app
 - Vite
 - JavaScript
 - CSS
-
-## Installation
-
-```bash
-npm install
-npm run dev
-```
 
 ## Project Structure
 
