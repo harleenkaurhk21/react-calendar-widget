@@ -1,0 +1,179 @@
+/* ==========================
+   Global Styles
+========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #111;
+}
+
+/* ==========================
+   Event Form
+========================== */
+
+.event-form {
+  margin-bottom: 32px;
+}
+
+.event-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #444;
+}
+
+/* Validation */
+
+.error-input {
+  border: 2px solid red !important;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* Button */
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #111;
+}
+
+/* ==========================
+   Event List
+========================== */
+
+.event-list h2 {
+  margin-bottom: 20px;
+}
+
+.event-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.event-card h3 {
+  margin-bottom: 8px;
+}
+
+.event-card p {
+  color: #555;
+}
+
+/* Empty State */
+
+.empty-state {
+  padding: 30px;
+  text-align: center;
+  border: 2px dashed #bdbdbd;
+  border-radius: 8px;
+  color: #666;
+}
+
+/* ==========================
+   Loader
+========================== */
+
+.loader-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #d1d5db;
+  border-top: 5px solid #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .event-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
