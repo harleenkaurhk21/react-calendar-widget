@@ -1,6 +1,3 @@
-/* ==========================
-   Global Styles
-========================== */
 
 * {
   margin: 0;
@@ -28,10 +25,6 @@ h1 {
   margin-bottom: 32px;
   color: #111;
 }
-
-/* ==========================
-   Event Form
-========================== */
 
 .event-form {
   margin-bottom: 32px;
@@ -64,8 +57,6 @@ h1 {
   border-color: #444;
 }
 
-/* Validation */
-
 .error-input {
   border: 2px solid red !important;
 }
@@ -75,8 +66,6 @@ h1 {
   font-size: 14px;
   margin-top: 6px;
 }
-
-/* Button */
 
 button {
   padding: 12px 18px;
@@ -91,10 +80,6 @@ button {
 button:hover {
   background: #111;
 }
-
-/* ==========================
-   Event List
-========================== */
 
 .event-list h2 {
   margin-bottom: 20px;
@@ -119,8 +104,6 @@ button:hover {
   color: #555;
 }
 
-/* Empty State */
-
 .empty-state {
   padding: 30px;
   text-align: center;
@@ -128,10 +111,6 @@ button:hover {
   border-radius: 8px;
   color: #666;
 }
-
-/* ==========================
-   Loader
-========================== */
 
 .loader-container {
   height: 100vh;
@@ -156,10 +135,6 @@ button:hover {
     transform: rotate(360deg);
   }
 }
-
-/* ==========================
-   Responsive
-========================== */
 
 @media (max-width: 600px) {
   .container {
