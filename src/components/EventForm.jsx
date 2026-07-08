@@ -12,7 +12,6 @@ function EventForm({ addEvent }) {
 
     let valid = true;
 
-    // Validation
     if (title.trim() === "") {
       setTitleError(true);
       valid = false;
