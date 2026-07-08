@@ -1,5 +1,5 @@
 function EventList({ events, deleteEvent }) {
-  // Empty State
+
   if (events.length === 0) {
     return (
       <div className="event-list">
